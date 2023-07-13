@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    color: gold;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+header h2{
+    color: rgb(179, 160, 163);
+    padding-top: 1rem;
+}
+
+main{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+}
+
+.cart{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.monster{
+    max-width: 100%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: "";
+}
+
+.sign{
+    color: white;
+}
